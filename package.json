@@ -1,0 +1,44 @@
+{
+  "name": "autenticacao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "clear && ts-node-dev ./src/index.ts",
+    "start": "tsc && node ./build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahromanhol/autenticacao.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarahromanhol/autenticacao/issues"
+  },
+  "homepage": "https://github.com/sarahromanhol/autenticacao#readme",
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/knex": "^0.16.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^14.1.0",
+    "express": "^4.17.2",
+    "json-web-token": "^3.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^1.0.1",
+    "mysql": "^2.18.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.9",
+    "@types/uuid": "^8.3.4",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.4"
+  }
+}
